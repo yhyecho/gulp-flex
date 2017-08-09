@@ -11,7 +11,7 @@
   1. 新建任意项目flex
   2. 本地新建gh-pages分支并推送至远程仓库
   3. 在setting设置gh-pages为默认分支
-  4. 访问 [地址](https://yhyecho.github.io/flex)查看效果
+  4. 访问 [地址](https://yhyecho.github.io/flex) 查看效果
 #### 3. coding.net托管页面
 * 创建个人和项目主页 [地址](https://coding.net/help/doc/pages/index.html)
 
@@ -21,7 +21,7 @@
 * npm和gulp的学习
   1. npm包管理工具 [官网](https://www.npmjs.com/)
   2. gulp前端自动化构建工具 [官网](http://gulpjs.com/)
-* 动手，从实际项目中学习node
+* 动手，从实际项目中学习node
 #### Nodejs安装
 * nvm安装nodejs(安装方便，支持多版本管理)
   1. 安装nvm
@@ -244,7 +244,7 @@ gulp.task('default', ['sass', 'copy-assets']);
 ## 四. 当材料设计遇到响应式开发
 #### 4.1 为何要移动优先
 * 由简入繁易, 由繁入简难
-* 手机端屏幕大小有限，优先实现主要业务
+* 手机端屏幕大小有限,优先实现主要业务
 * 利用媒介查询，覆盖原css样式
   ```scss
   @media (min-width: 420px) {
@@ -254,13 +254,13 @@ gulp.task('default', ['sass', 'copy-assets']);
   }
   ```
 #### 4.2 定制自己的色盘
-* 前端设计不是设计问题而是逻辑问题(颜色层次)
+* 前端设计不是设计问题而是逻辑问题(颜色层次)
 * [地址](http://www.materialpalette.com/cyan/pink)
 
 #### 4.3 色盘上各种颜色的作用
 * [uplabs.com](https://www.uplabs.com/material)
 * [dribbble.com](https://dribbble.com/)
-* 色盘上颜色的作用
+* 色盘上颜色的作用
   1. 主色(构成页面大背景。)
   2. 强调色(用来凸显一些重要操作或内容。)
   3. 其他颜色(突出内容主次层级关系。)
@@ -291,7 +291,7 @@ gulp.task('default', ['sass', 'copy-assets']);
     <meta name="viewport" content="width=device-width, initial-scale=1">
   ```
 
-## 五. Flexbox来了
+## 五. Flexbox来了
 #### 5.1 flexbox时代来临
 * Flexbox 解决了哪些些以前CSS没能解决好的问题
   * position
@@ -306,7 +306,7 @@ gulp.task('default', ['sass', 'copy-assets']);
 * 处理gulp错误
 * align-item: center;
 * justify-content: space-between;
-* 添加padding和border后整个元素尺寸改变
+* 添加padding和border后整个元素尺寸改变
   ```scss
   box-sizing: border-box;
   ```
@@ -320,7 +320,7 @@ gulp.task('default', ['sass', 'copy-assets']);
   ```
   npm i -D browser-sync
   ```
-* 修改gulpfile.js
+* 修改gulpfile.js
   ```js
 
   ```
@@ -330,14 +330,13 @@ gulp.task('default', ['sass', 'copy-assets']);
 * 临界点
   ```scss
   @media (min-width: 600px) {
-    // ...
   }
   ```
 #### 6.2 响应式导航
-* 根据设备宽度的改变覆盖原有css样式
-#### 6.3 flexbox 流体网格
+* 根据设备宽度的改变覆盖原有css样式
+#### 6.3 flexbox 流体网格
 * flex-grid
-* calc
+* calc
   ```scss
   .card {
     margin: 20px;
@@ -345,7 +344,7 @@ gulp.task('default', ['sass', 'copy-assets']);
   }
   ```
 #### 6.4 总结
- 
+
 
   
 
