@@ -311,6 +311,7 @@ gulp.task('default', ['sass', 'copy-assets']);
   box-sizing: border-box;
   ```
 #### 5.5 gulp-wrap 使用布局文件
+* 把 header 和 footer 抽出来形成”布局文件“，然后借助 gulp-wrap 来重新组合成页面。
 * 安装gulp-wrap
   ```
   npm i -D gulp-wrap
